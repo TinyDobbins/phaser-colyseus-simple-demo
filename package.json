@@ -1,0 +1,18 @@
+{
+  "name": "server-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "Nikita Borisov",
+  "dependencies": {
+    "@colyseus/monitor": "0.1.10",
+    "colyseus": "0.9.19",
+    "express": "^4.16.4",
+    "uniqid": "^1.0.0",
+    "uws": "^9.14.0"
+  },
+  "devDependencies": {}
+}

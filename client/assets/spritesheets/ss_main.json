@@ -1,0 +1,27 @@
+﻿{"frames": {
+
+"box_0000":
+{
+	"frame": {"x":33,"y":1,"w":21,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":21},
+	"sourceSize": {"w":21,"h":21}
+},
+"circle_0000":
+{
+	"frame": {"x":1,"y":1,"w":31,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":30},
+	"sourceSize": {"w":31,"h":30}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "16.2.0.24",
+	"image": "ss_main.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1"
+}
+}
