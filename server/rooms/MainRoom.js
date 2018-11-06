@@ -6,6 +6,8 @@ const TICK_RATE = 20;
 
 class MainRoom extends Room {
 	onInit (options) {
+		this.maxClients = 2;
+
 		this.patchRate = 1000 / TICK_RATE; // sync state every 50ms
 		this.setPatchRate(this.patchRate)
 
@@ -18,7 +20,7 @@ class MainRoom extends Room {
 
 	requestJoin(options) {
 		console.log('MainRoom:requestJoin',options);
-		return (this.channel === options.channel);
+		return ((this.channel == options.channel) && (this.clients.length < this.maxClients));
 	}
 
 	onJoin (client, options) {
